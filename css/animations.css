@@ -1,0 +1,51 @@
+
+/*
+-------BUTTON ANIMATIONS-------
+*/
+
+.button{
+    color: #fff;
+    background: rgba(0, 132, 255, .6);
+    opacity: 0;
+    transition: opacity .4s .4s, background .4s .2s, border-radius .2s, box-shadow .3s;
+}
+
+.button:hover{
+    background: rgba(0, 132, 255, 1);
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, .7);
+}
+
+.button:active{
+    background: rgb(1, 85, 163);
+}
+
+.btn-icon{
+    transition: opacity, left ;
+    transition-timing-function: ease-out;
+    transition-duration: .6s;
+    transition-delay: .3s;
+}
+
+.button:hover .btn-icon{
+    opacity: 1;
+    left: 80%;
+}
+
+
+/*
+-------PHOTO OVERLAY ANIMATIONS------
+*/
+
+.photo-overlay{
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+.photo-overlay:hover{
+    opacity: 1;
+}
+
+.photo-overlay:hover .button{
+    opacity: 1;
+}
