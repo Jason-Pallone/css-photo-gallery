@@ -98,7 +98,6 @@ p {
 	color: #fff;
 	width: 75%;
 	font-weight: 700;
-	display: block;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 22px 0;
@@ -108,7 +107,6 @@ p {
 
 .btn-icon {
 	opacity: 0;
-	display: inline-block;
 	width: 18px;
 	height: 18px;
 	background: url('../img/download.svg');
