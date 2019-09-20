@@ -93,6 +93,10 @@
     transform: translateX(100%);
 }
 
+.slide .button{
+    opacity: 1;
+}
+
 
 /*
 ---------LOGO---------
