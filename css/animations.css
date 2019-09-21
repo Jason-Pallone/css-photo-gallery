@@ -1,35 +1,15 @@
 
 /*
--------BUTTON ANIMATIONS-------
+---------LOGO---------
 */
 
-.button{
-    color: #fff;
-    background: rgba(0, 132, 255, .6);
-    opacity: 0;
-    transition: opacity .4s .4s, background .4s .2s, border-radius .2s, box-shadow .3s;
+.logo{
+    transition: .5s;
 }
 
-.button:hover{
-    background: rgba(0, 132, 255, 1);
-    border-radius: 10px;
-    box-shadow: 0 0 0 2px rgba(255, 255, 255, .7);
-}
-
-.button:active{
-    background: rgb(1, 85, 163);
-}
-
-.btn-icon{
-    transition: opacity, left ;
-    transition-timing-function: ease-out;
-    transition-duration: .6s;
-    transition-delay: .3s;
-}
-
-.button:hover .btn-icon{
-    opacity: 1;
-    left: 80%;
+.logo:hover{
+    transform: rotate(-20deg);
+    cursor: pointer;
 }
 
 
@@ -49,11 +29,6 @@
 .photo-overlay:hover .button{
     opacity: 1;
 }
-
-
-/*
---------PHOTO ANIMATIONS-------
-*/
 
 
 /*
@@ -98,15 +73,61 @@
 }
 
 
+
 /*
----------LOGO---------
+-------BUTTON ANIMATIONS-------
 */
 
-.logo{
-    transition: .5s;
+.button{
+    color: #fff;
+    background: rgba(3, 0, 172, .6);
+    opacity: 0;
+    transition: opacity .4s .4s, background .4s .2s, border-radius .2s, box-shadow .3s;
 }
 
-.logo:hover{
-    transform: rotate(-20deg);
-    cursor: pointer;
+.button:hover{
+    background: rgba(3, 0, 172, 1);
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, .7);
 }
+
+.button:active{
+    background: rgb(1, 85, 163);
+}
+
+.btn-icon{
+    transition: opacity, left ;
+    transition-timing-function: ease-out;
+    transition-duration: .6s;
+    transition-delay: .3s;
+}
+
+.button:hover .btn-icon{
+    opacity: 1;
+    left: 80%;
+}
+
+
+/*
+----------3D flip animation-------------
+*/
+
+.flip-container{
+    perspective: 700px;
+}
+
+.flip{
+    transition: transform 1s cubic-bezier(.55, -.62, .27, 1.2);
+    transform-style: preserve-3d;
+}
+
+.flip:hover{
+    transform: rotateX(-180deg);
+}
+
+.flip-overlay{
+    transform: rotateX(180deg);
+    background: rgb(0, 102, 255);
+}
+
+

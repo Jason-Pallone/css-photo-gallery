@@ -55,9 +55,16 @@ p {
 	margin: auto;
 }
 
+
 .main-header {
 	text-align: center;
 	padding: 2.8em 0;
+}
+
+.cube-container {
+	max-width: 200px;
+	text-align: center;
+	margin: 0 auto 4.5em;
 }
 
 .photo-container {
@@ -66,6 +73,8 @@ p {
 }
 
 /* ---- Page Elements ---- */
+
+
 .name {
 	font-size: 1.65em;
 	font-weight: 800;
