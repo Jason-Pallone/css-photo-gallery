@@ -3,7 +3,9 @@
 This is an interactive photo gallery created using CSS animations and HTML. There are three different types of animations,
 all created using CSS animations. There is a zoom in animation, a flip animation and a slide animation. 
 
-[Photo gallery gif](gif/photo-gallery.gif)
+![Photo gallery gif](./gif/photo-gallery.gif)
+
+[View the live demo](https://css-photo-gallery.herokuapp.com/index.html)
 
 To run this project on your PC follow the steps below.
 
