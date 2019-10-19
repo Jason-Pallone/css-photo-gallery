@@ -7,6 +7,8 @@ all created using CSS animations. There is a zoom in animation, a flip animation
 
 [View the live demo](https://css-photo-gallery.herokuapp.com/index.html)
 
+If you're interested in viewing my portfolio, [Click here](https://jasonpallone.com)
+
 To run this project on your PC follow the steps below.
 
 1. Clone this repo to your PC using git clone.
